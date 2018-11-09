@@ -1,6 +1,22 @@
-#main {
-    /* add CSS here */
+#main{
+    margin: 50px auto;
+    max-width: 350px;
 }
+
+
 .pet {
-    /* add CSS here */
+    box-shadow: 7px 7px #525c65;
+    border: 3px dashed red;
+    border-radius: 12px;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    border-radius: 12px;
+}
+.content>p{
+    display: inline;
+}
+.content{
+    margin-top: 10px;
 }
