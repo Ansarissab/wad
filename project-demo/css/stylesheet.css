@@ -1,0 +1,26 @@
+@media screen and (max-width: 320px) {
+ label{
+     display: none;
+ }
+}
+@media screen and (max-width: 375px){
+    label{
+        display: none;
+    }
+}
+@media screen and (max-width: 441px){
+ /*pixel 2xl*/
+    label{
+        display: none;
+    }
+}
+@media screen and (min-width: 665px){
+    label{
+        display: none;
+    }
+}
+@media screen and (min-width: 667px){
+    label{
+        display: inline-block;
+    }
+}
