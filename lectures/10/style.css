@@ -1,24 +1,32 @@
-
-[class*='col']{
+[class*='c']{
     width: 100%;
     float: left;
 }
+.c-sm-12:hover{
+    box-shadow: 12px 12px 12px 2px #888888;
+}
 @media only screen and (min-width: 500px)
 {
-    .c-sm-6{
-        width: 50%;
+    .c-sm-12{
+        width: 100%;
     }
 }
 @media only screen and (min-width: 700px)
 {
-    .c-md-4{
+    .c-sm-6{
         width: 33.33%;
     }
 }
 @media only screen and (min-width: 900px)
 {
-    .c-lg-3{
+    .c-md-4{
         width: 25%;
+    }
+}
+@media only screen and (min-width: 1100px)
+{
+    .c-lg-3{
+        width: 16.66%;
     }
 }
 
