@@ -160,9 +160,6 @@ function show() {
         buttons[i].addEventListener('click',remove);
     }
 }
-function line_through(e){
-    $(this).classList.add("completed");
-}
 
 function isDone(e) {
     var todos = getTodos();
@@ -191,18 +188,38 @@ show();
 //-----------  STEP - 5 ----------------------
 //============================================
 
-/*
 
-CLASS ACTIVITY (HOME WORK) :
+//
+// CLASS ACTIVITY (HOME WORK) :
+//
+// 1- Enable State of todos by clicking on the text completed, started etc
+// HINT: use text-decoration:line-through; property of CSS
 
-1- Enable State of todos by clicking on the text completed, started etc
-HINT: use text-decoration:line-through; property of CSS
+// function line_through(e){}
+// $("ul").on("click", "li", function(){
+//     $(this).toggleClass("completed");
+// });
+// }
 
+//
+// 2- Enable Editing todos in text field to update text
+//
+//
+// var editTask=function(){
+//     var listItem=this.parentNode;
+//     var editInput=listItem.querySelector('input[type=text]');
+//     var label=listItem.querySelector("label");
+//     var containsClass=listItem.classList.contains("editMode");
+//     if(containsClass){
+//         label.innerText=editInput.value;
+//     }else{
+//         editInput.value=label.innerText;
+//     }
+//     listItem.classList.toggle("editMode");
+// }
 
+//
+//
+//
 
-2- Enable Editing todos in text field to update text
-
-
-
-*/
 
